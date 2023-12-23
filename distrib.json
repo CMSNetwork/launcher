@@ -1,0 +1,661 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "cmscity-1.12.2",
+      "name": "cmscity (Minecraft 1.12.2)",
+      "description": "Serveur CMS CITY Production",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "node03.cms-network.fr:25582",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://modpack.cms-city.fr/cms-city/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://modpack.cms-city.fr/cms-city/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.geforcemods:securitycraft:v1.8.20.2@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1738598,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/[1.12.2]+SecurityCraft+v1.8.20.2.jar",
+            "MD5": "fce827feeb9911800d0221f5c6c51dc6"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.0.8@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 119083,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/Camera-Mod-1.12.2.jar",
+            "MD5": "29eafd0b293034ce1936e935ba306c1c"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:0.15.7@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 879867,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/cgm-0.15.7-1.12.2.jar",
+            "MD5": "0888425990e961ed42ea82430adc786a"
+          }
+        },
+        {
+          "id": "team.chisel:chisel:MC1.12.2-1.0.2.45@jar",
+          "name": "Chisel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4755282,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
+            "MD5": "54afc298f94e708f0e1cdf399200b2cb"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
+          "name": "Chisels & Bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737407,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/chiselsandbits-14.33(1).jar",
+            "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+          }
+        },
+        {
+          "id": "net.mcreator:cmsmod:1.0.0@jar",
+          "name": "CMS MOD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114822756,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/CMS_Mod_v2.4.3.jar",
+            "MD5": "77fc7b3dee8992ce444d1cd6fc3a1457"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.45.2@jar",
+          "name": "Mazecity Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2730666,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/cms-vehicule-1.0.2-dist.jar",
+            "MD5": "8800a40b01f55fbcd96778c7442178ae"
+          }
+        },
+        {
+          "id": "fr.renardfute.mazeradio:maze_radio:1.1@jar",
+          "name": "Maze Radio",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47961,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/CMSRadio.jar",
+            "MD5": "5a27769688ee0ae0fd260a814ed777fc"
+          }
+        },
+        {
+          "id": "fr.mynosci.cmsvc.call:modularvoicechatcalladdon:0.0.0@jar",
+          "name": "ModularVoiceChatCallAddon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11555,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/cmsvc.jar",
+            "MD5": "6827f3501c971d0e5fa37c89cf7acdc7"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.12.2-1.0.8@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67966,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/corpse-1.12.2-1.0.8.jar",
+            "MD5": "d79e51706d18eab2ccfa0070c0b7592b"
+          }
+        },
+        {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320474,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/CreativeCore_v1.10.70_mc1.12.2.jar",
+            "MD5": "2c1f06ceb07b1bb20c79ad4991a48f7b"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
+          "name": "CTM",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199045,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/CTM-MC1.12.2-1.0.2.31.jar",
+            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864"
+          }
+        },
+        {
+          "id": "gunn.modcurrency.mod:modcurrency:1.12.0-1.3.11@jar",
+          "name": "Good Ol' Currency Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 621634,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/Currency-1.12.0-1.3.9.jar",
+            "MD5": "4135b6b5da0d9af57260b17d0368bf23"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
+          "id": "com.mia:props:2.6.2@jar",
+          "name": "DecoCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16292565,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/Decocraft-2.6.2_1.12.2.jar",
+            "MD5": "ea7566cf5ac07183d8b275cf1a42487a"
+          }
+        },
+        {
+          "id": "derfl007.roads:df-roads:1.5.2-mc1.12.2@jar",
+          "name": "Derfl007's Road Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3086249,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/df-roads-1.5.2-mc1.12.2.jar",
+            "MD5": "c4c683edd83003e08b11f855baf6e451"
+          }
+        },
+        {
+          "id": "com.mart:display:1.2.4@jar",
+          "name": "Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41594,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/Display-1.2.4.jar",
+            "MD5": "6fc91c3f3373dbfe8a4467fbd0a1f88d"
+          }
+        },
+        {
+          "id": "org.blockartistry.dynsurround:dsurround:1.12.2-3.4.7.2@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22055819,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/DynamicSurroundings-1.12.2-3.4.7.2.jar",
+            "MD5": "ce790d3dcef5e776d1f7254e53e1d014"
+          }
+        },
+        {
+          "id": "net.mcreator:frenchroadsmod:1.0.0@jar",
+          "name": "FrenchRoads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9017158,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/FrenchRoads%20-%20V2.0.0.jar",
+            "MD5": "31ad8ace059e75d47b2b3327018d3786"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2439199,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
+            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
+          }
+        },
+        {
+          "id": "cassiokf.industrialrenewal:industrialrenewal:0.21.8@jar",
+          "name": "Industrial Renewal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3871619,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/IndustrialRenewal_1.12.2-0.21.8(1).jar",
+            "MD5": "995959365fb7b98cc5c908679fa970ef"
+          }
+        },
+        {
+          "id": "net.malisis.core:malisiscore:1.12.2-6.5.1-SNAPSHOT@jar",
+          "name": "MalisisCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1939783,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/malisiscore-1.12.2-6.5.1.jar",
+            "MD5": "ccc183a97d7b9688a49bf29b61343f49"
+          }
+        },
+        {
+          "id": "net.malisis.doors:malisisdoors:1.12.2-7.3.0@jar",
+          "name": "MalisisDoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1741669,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/malisisdoors-1.12.2-7.3.0.jar",
+            "MD5": "6d0f129ff9a05f84add5b2209a6d0284"
+          }
+        },
+        {
+          "id": "mcjty.lib:mcjtylib_ng:1.12-3.5.4@jar",
+          "name": "McJtyLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544856,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/mcjtylib-1.12-3.5.4.jar",
+            "MD5": "45ac9983da9fd2bc7fe3446b9f4287c1"
+          }
+        },
+        {
+          "id": "fr.nathanael2611.modularvoicechat:modularvc:1.1@jar",
+          "name": "ModularVoiceChat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2145406,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/ModularVoiceChat-1.1.jar",
+            "MD5": "54e95d17b11644079fcaef02c68a3268"
+          }
+        },
+        {
+          "id": "com.supermartijn642:movingelevators:1.3.6@jar",
+          "name": "Moving Elevators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 292654,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/movingelevators-1.3.6-mc1.12.jar",
+            "MD5": "6220a8999b497f588013da47e5db43f3"
+          }
+        },
+        {
+          "id": "com.vicmatskiv:mw:0.7.1@jar",
+          "name": "Modern Warfare ORI (3.0) Squared",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37121488,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/mw3.0_sqr-0.7.25_BETA_mc1.12.2.jar",
+            "MD5": "48688bf872f7b7ff703fc169f1c0349f"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.obfuscate.asm:obfuscate:0.4.2-1.12.2@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129099,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/obfuscate-0.4.2-1.12.2.jar",
+            "MD5": "a5d3ac71ec8762fe72a91465de6d30a3"
+          }
+        },
+        {
+          "id": "com.creativemd.opf:opframe:1.1@jar",
+          "name": "OnlinePictureFrame",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79452,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/OnlinePicFrame_v1.5.0-pre1_mc1.12.2(1).jar",
+            "MD5": "f893cc9f646633a93af60e79dc295f96"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2457427,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/OptiFine-1.12.2_HD_U_G5.jar",
+            "MD5": "92a619d468d9576a531a7ca8908669e2"
+          }
+        },
+        {
+          "id": "com.mia.craftstudio.minecraft:ptrmodellib:1.0.5@jar",
+          "name": "Ptrmodellib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169749,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/PTRLib-1.0.5.jar",
+            "MD5": "7376e09acb5d531d28cb4d28a7f190fd"
+          }
+        },
+        {
+          "id": "lumien.randomthings:randomthings:4.2.7.4@jar",
+          "name": "Random Things",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3292861,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/RandomThings-MC1.12.2-4.2.7.4.jar",
+            "MD5": "b91502e1810cdf13dfd5fb3b4e15e5ad"
+          }
+        },
+        {
+          "id": "net.zarathul:simplefluidtanks:1.12.2-1.7.1.3@jar",
+          "name": "Simple Fluid Tanks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 153076,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/simplefluidtanks-1.12.2-1.7.1.3.jar",
+            "MD5": "45e571510a0691ff173384386af8de7f"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.5@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 204696,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/supermartijn642configlib-1.1.5-forge-mc1.12.jar",
+            "MD5": "469dbcb59f1828cc7ba259366a79c921"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.0.18@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1162211,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/supermartijn642corelib-1.0.18-forge-mc1.12.jar",
+            "MD5": "2181727a150bb2294a3682290741956b"
+          }
+        },
+        {
+          "id": "thut.core.common.compat:thutcore:1.12.2-5.21.0@jar",
+          "name": "Thut Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 503447,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/thutcore-1.12.2-5.21.0.jar",
+            "MD5": "478d0dfef6d0db003258de094637af6e"
+          }
+        },
+        {
+          "id": "thut.tech:thuttech:1.12.2-6.1.6@jar",
+          "name": "Thut's Elevators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92887,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/thuttech-1.12.2-6.1.6.jar",
+            "MD5": "7d6aaaff394ca76ae6c9838c0b1d17d9"
+          }
+        },
+        {
+          "id": "com.clussmanproductions:trafficcontrol:1.0.0@jar",
+          "name": "Traffic Control",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2286065,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/trafficcontrol-1.0.0.jar",
+            "MD5": "f31ba71c919d9483620d2f809b58b7d5"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:6.1.8-SNAPSHOT;cd4729f@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1470354,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/worldedit-forge-mc1.12-6.1.8-dist.jar",
+            "MD5": "73ecbb8656a5fd5823852078f0fb7ca7"
+          }
+        },
+        {
+          "id": "mcjty.xnet:xnet:1.12-1.8.2@jar",
+          "name": "XNet",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 496307,
+            "url": "https://modpack.cms-city.fr/cms-city/servers/cmscity-1.12.2/forgemods/required/xnet-1.12-1.8.2.jar",
+            "MD5": "13935bce3f6b827aa19567a81e5be38f"
+          }
+        }
+      ]
+    }
+  ]
+}
